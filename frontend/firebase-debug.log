@@ -1,0 +1,25 @@
+[debug] [2025-04-08T03:30:33.897Z] ----------------------------------------------------------------------
+[debug] [2025-04-08T03:30:33.901Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\skuma\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-04-08T03:30:33.901Z] CLI Version:   13.35.1
+[debug] [2025-04-08T03:30:33.901Z] Platform:      win32
+[debug] [2025-04-08T03:30:33.902Z] Node Version:  v18.17.0
+[debug] [2025-04-08T03:30:33.902Z] Time:          Mon Apr 07 2025 23:30:33 GMT-0400 (Eastern Daylight Time)
+[debug] [2025-04-08T03:30:33.903Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-04-08T03:30:33.915Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-04-08T03:30:33.916Z] > authorizing via signed-in user (s.kumar8872@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Suresh\Private\Data-Private\EMBA\FinTech\Sem-5\FIN\securetransact_full_project\frontend
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
