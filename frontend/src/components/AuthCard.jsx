@@ -124,7 +124,8 @@ export default function AuthCard() {
                     body: JSON.stringify(txn)
                   });
                   const result = await fraudRes.json();
-                  return { ...txn, fraud: result.fraud };
+                  const isHighRisk = result.fraud || txn.amount > 1500;
+                  return { ...txn, fraud: isHighRisk };
                 })
               );
               setTransactions([...transactions, ...updatedTxns]);
